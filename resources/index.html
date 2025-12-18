@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Assets Manager</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:,">
+</head>
+
+<body>
+    <div id="app">
+        <h1>Smart Assets Manager</h1>
+        <p>Your local folder organization assistant.</p>
+        
+        <div class="controls">
+            <button onclick="scanAndSort()">🚀 Select & Organize Folder</button>
+        </div>
+
+        <div id="status-card" style="display: none;">
+            <h3 id="status-msg">Processing...</h3>
+            <ul id="file-list"></ul>
+        </div>
+    </div>
+
+    <script src="/js/neutralino.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>
